@@ -1,5 +1,8 @@
 
+{{posts?.data}}
+
 
 <div *ngFor="let p of posts.data.children">
+  
     <app-post-view [myPost]="p"></app-post-view>
 </div>
